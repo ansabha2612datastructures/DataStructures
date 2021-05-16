@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TwoSum")]
+[assembly: AssemblyTitle("DataStructuresPractice")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TwoSum")]
+[assembly: AssemblyProduct("DataStructuresPractice")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("64ec4096-5187-4adb-bf8d-3c0ef54bd8c0")]
+[assembly: Guid("a1dfd466-146f-43d2-8335-bc486069eb34")]
 
 // Version information for an assembly consists of the following four values:
 //

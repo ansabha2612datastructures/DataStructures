@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwoSum
+namespace DataStructuresPractice
 {
     class Program
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
