@@ -12,7 +12,7 @@ namespace TwoSum
     {
         static void Main(string[] args)
         {
-            int[] nums = { 3,2,4};
+            int[] nums = { 3,3};
             int target = 6;
                   
             TwoSum obj = new TwoSum();
@@ -21,27 +21,25 @@ namespace TwoSum
         }
         public int[] twoSum(int[] nums, int target)
         {
-            List<Numbers> numbers = new List<Numbers>();
-            for (int i = 0; i < nums.Length; i++)
+            Dictionary<int,int> numsDictionary = new Dictionary<int, int>();
+
+            int complement;
+            for (var i = 0; i < nums.Length; i++)
             {
-                numbers.Add(new Numbers() { number=nums[i],position=i});
-            }
-            var lookup = numbers.ToLookup(x => x.number);
-            for (int i = 0; i < nums.Length; i++)
-            {
-                int complement = target - nums[i];
-                if (lookup.Contains(complement))
+                complement = target - nums[i];
+                int index;
+                if ( numsDictionary.TryGetValue(complement, out index))
                 {
-                    return new int[] { 0,0 };
+                    return new int[] { index, i };
                 }
 
+                if (!numsDictionary.ContainsKey(nums[i]))
+                {
+                    numsDictionary.Add(nums[i], i);
+                }
             }
-            return new int[] { -1,-1 };
+            return new int[] { -1, -1 };
         }
     }
-    public class Numbers
-    {
-        public int number { get; set; }
-        public int position { get; set; }
-    }
+
 }
