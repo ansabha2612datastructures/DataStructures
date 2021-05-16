@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64EC4096-5187-4ADB-BF8D-3C0EF54BD8C0}</ProjectGuid>
+    <ProjectGuid>{A1DFD466-146F-43D2-8335-BC486069EB34}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TwoSum</RootNamespace>
-    <AssemblyName>TwoSum</AssemblyName>
+    <RootNamespace>DataStructuresPractice</RootNamespace>
+    <AssemblyName>DataStructuresPractice</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
